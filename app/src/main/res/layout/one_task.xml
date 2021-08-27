@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:elevation="10dp"
+    android:background="@drawable/textbox"
+    android:padding="10dp"
+    android:layout_marginBottom="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/task_name"
+                android:textSize="20sp"
+                android:text="Task One"
+                android:padding="10dp"
+                android:textColor="@color/primary_text"
+                >
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:id="@+id/task_date"
+                    android:textSize="16sp"
+                    android:text="YYYY-MM-DD"
+                    android:padding="10dp"
+                    android:textColor="#7A7878"
+                    >
+
+                </TextView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/task_time"
+                    android:textSize="16sp"
+                    android:text="00:00"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textColor="#7A7878"
+                    >
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/task_id">
+
+                </TextView>
+
+                <ImageButton
+
+                    android:layout_gravity="center"
+
+                    android:id="@+id/deleteTasks"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:background="@drawable/bg1"
+
+                    android:onClick="deleteTask"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_delete_forever_24" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Switch
+                    android:elevation="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/saveprofile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:onClick="saveAll"
+                    android:padding="10dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textbox"
+            android:elevation="5dp"
+            >
+            <TextView
+                android:id="@+id/task_description"
+                android:layout_gravity="center"
+
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

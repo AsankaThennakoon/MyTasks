@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyTask</string>
+
+
+    <string name="login">Login</string>
+    <string name="your_are_not">Are you not a member ? </string>
+    <string name="register">Register</string>
+    <string name="business_name">Business Name eg: New Sunflowers</string>
+    <string name="password_hint">eg : 12334@asd</string>
+    <string name="name_hint">eg: Asanka Thennakoon</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="mobile">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_register">Already Registered  ?</string>
+    <string name="address_hint">No 52 Main Street Dolosbage.</string>
+    <string name="contact_hint">0712618879</string>
+    <string name="email_hint">sunflowers@gmail.com</string>
+
+
+    <string name="addtask">Add Tasks</string>
+    <string name="viewthetask">View Tasks</string>
+    <string name="edittheprofile">Edit Profile</string>
+
+    <string name="addtaskhint">Add new tasks ans set alarms</string>
+    <string name="viewthetaskhint">View the details of added tasks</string>
+    <string name="edittheprofilehint">Edit your profile details</string>
+
+    <string name="title">Title</string>
+    <string name="date">Select Date</string>
+    <string name="time">Select Time</string>
+    <string name="description">Add Description</string>
+
+</resources>
